@@ -59,6 +59,20 @@ body {
     justify-content: center;
 }
 
+.category-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.category-header{
+    width: 440px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
 /* Product Card */
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
